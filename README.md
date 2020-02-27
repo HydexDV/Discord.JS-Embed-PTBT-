@@ -83,3 +83,14 @@ if(cmd === '!teste'){
     }
 ```
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682580281722667019/unknown.png "Title")
+#### • .setThumbnail("imagem") 
+```js
+       if(cmd === '!teste'){
+      let coisa = new Discord.RichEmbed()
+      .setTitle("Oi eu sou um title")
+      .setDescription("eu sou a descrição de um title")
+      .setThumbnail("https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-512.png")
+      message.channel.send(coisa);
+    }
+```
+![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682580624694968351/unknown.png "Title")
