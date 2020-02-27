@@ -25,6 +25,14 @@ Entre os 2 devemos colocar as definições de como você vai querer sua embed
 
 Agora você ira aprender a "Customizar" sua embed para deixa-la ao seu gosto.
 
-#### - setAuthor("TEXTO","IMAGEM (OPCIONAL)") 
-
+#### • setAuthor("texto","imagem (OPCIONAL)") 
+```js
+    if(cmd === '!teste'){
+      let coisa = new Discord.RichEmbed()
+      .setAuthor("Oi eu sou o Author","https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-512.png")
+      message.channel.send(coisa);
+    }
+  
+});
+```
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682576291240738870/unknown.png "Title")
