@@ -105,3 +105,6 @@ if(cmd === '!teste'){
     }     
 ```
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682581345452687389/unknown.png "Title")
+
+## Por enquanto é só
+logo logo posto mais coisas em relação de discord.js e .py
