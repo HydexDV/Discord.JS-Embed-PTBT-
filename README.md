@@ -59,3 +59,13 @@ Nesse caso utilizei o ".setDescription" junto para demonstrar como ele pode ser 
     }
 ```
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682578857819504651/unknown.png "Title")
+
+#### • .setFooter("texto","Icone/imagem") 
+```js
+if(cmd === '!teste'){
+      let coisa = new Discord.RichEmbed()
+      .setFooter("Oi eu sou um footer","https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-512.png")
+      message.channel.send(coisa);
+    }
+```
+![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682579682008498186/unknown.png "Title")
