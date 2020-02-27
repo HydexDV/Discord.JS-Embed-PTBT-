@@ -48,3 +48,14 @@ Agora você ira aprender a "Customizar" sua embed para deixa-la ao seu gosto.
 ```
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682577482649436311/unknown.png "Title")
 
+#### • .setTitle("texto") 
+Nesse caso utilizei o ".setDescription" junto para demonstrar como ele pode ser usado!
+```js
+        if(cmd === '!teste'){
+      let coisa = new Discord.RichEmbed()
+      .setTitle("Oi eu sou um title")
+      .setDescription("eu sou a descrição de um title")
+      message.channel.send(coisa);
+    }
+```
+![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682578857819504651/unknown.png "Title")
