@@ -36,3 +36,15 @@ Agora você ira aprender a "Customizar" sua embed para deixa-la ao seu gosto.
 });
 ```
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682576291240738870/unknown.png "Title")
+
+#### • .setDescription("texto") 
+```js
+       if(cmd === '!teste'){
+      let coisa = new Discord.RichEmbed()
+      .setDescription("Oi eu sou uma description [e eu sou um link clicavel](https://www.youtube.com/channel/UCTbR2nrS_LR5jR6BpBjjG_A)")
+      message.channel.send(coisa);
+    }
+  
+```
+![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682577482649436311/unknown.png "Title")
+
