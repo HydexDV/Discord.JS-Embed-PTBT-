@@ -94,3 +94,14 @@ if(cmd === '!teste'){
     }
 ```
 ![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682580624694968351/unknown.png "Title")
+#### • .setColor("hex,rgb") 
+```js
+  if(cmd === '!teste'){
+      let coisa = new Discord.RichEmbed()
+      .setTitle("Oi eu sou um title")
+      .setDescription("eu sou a descrição de um title")
+     .setColor("#ff0000")
+      message.channel.send(coisa);
+    }     
+```
+![Alt text](https://cdn.discordapp.com/attachments/682575921727012902/682581345452687389/unknown.png "Title")
